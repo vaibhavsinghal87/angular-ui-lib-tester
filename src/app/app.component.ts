@@ -8,7 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular-ui-lib-tester';
 
-  navigate(evt) {
+  constructor() { }
 
+  navigate(url: string) {
+    window.location.href = url;
   }
 }
