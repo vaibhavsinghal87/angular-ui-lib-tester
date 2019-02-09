@@ -1,16 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { UiButtonModule } from 'ng-ui-button';
 
 import { AppComponent } from './app.component';
-import { UiButtonComponent } from 'ui-button';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    UiButtonComponent
+    AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    UiButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
